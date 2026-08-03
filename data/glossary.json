@@ -1,0 +1,7 @@
+[
+  { "pattern": "CCASS", "replacement": "CCASS", "case_sensitive": true },
+  { "pattern": "Webb-site", "replacement": "Webb-site", "case_sensitive": true },
+  { "pattern": "GO", "replacement": "GO", "case_sensitive": true },
+  { "pattern": "Ivan", "replacement": "Ivan", "case_sensitive": true },
+  { "pattern": "James", "replacement": "James", "case_sensitive": true }
+]
