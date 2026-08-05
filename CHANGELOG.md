@@ -1,27 +1,19 @@
 # Changelog
 
-## [2026.08.01.5] - 2026-08-01
+## [2026.08.05.1] - 2026-08-05
 
 ### Added
 
-- KL app name and logo
-- Bilingual README and installer help text
-- GitHub repository link
-- Release notes and handoff docs
-- Authenticode signing support in the build pipeline
+- Bilingual update notes for the new release
+  - 新版本已加入中英雙語更新說明。
+- Clearer batch summary with completed, skipped, and reason sections
+  - 批次報告更清楚，分開顯示完成、跳過同原因。
 
 ### Changed
 
-- Default install path now uses `C:\Program Files\KL Multilingual Transcript Workbench`
-- User data now lives under `%LOCALAPPDATA%\KLMultilingualTranscriptWorkbench`
-- Desktop shortcut and Start Menu shortcut branding updated
-
-### Fixed
-
-- Cleaner uninstall flow
-- Better output packaging and documentation
-
-### Notes
-
-- Unsigned builds may still trigger SmartScreen
-- A trusted code-signing certificate is required for proper Authenticode signing
+- Windows filenames and output folders now use shorter, safer sanitized names
+  - Windows 檔名同輸出資料夾改用更短、更安全嘅清理名稱。
+- Batch jobs keep running after individual failures instead of stopping the worker
+  - 批次工作遇到單項失敗時會繼續跑，唔會停低 worker。
+- Context limits and batch limits are shown more clearly in the UI and docs
+  - 介面同文件會更清楚顯示背景資料限制同批次上限。
