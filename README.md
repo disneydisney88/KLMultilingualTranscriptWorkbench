@@ -90,8 +90,8 @@ Example manifest:
 {
   "version": "2026.08.10.1",
   "title": "KL Multilingual Transcript Workbench v2026.08.10.1",
-  "installer_url": "https://drive.google.com/drive/folders/1-ewn_aQ-knIPx-LXgLHlbD97vvfZdCV-?usp=sharing",
-  "update_folder_url": "https://drive.google.com/drive/folders/14CHaAUOi6iJLe6L76qwpCT5-KUx7MTj4?usp=sharing",
+  "installer_url": "https://example.com/download/KLMultilingualTranscriptWorkbench-Setup.exe",
+  "update_folder_url": "https://example.com/update-folder",
   "release_notes": "Fix batch skip, update wording, and improve output naming.",
   "mandatory": false,
   "restart_after_update": true,
@@ -100,7 +100,7 @@ Example manifest:
 ```
 
 If a newer version is found, the app prompts the user to download/update and reminds them to restart the app after updating.
-For testing, you can point `installer_url` to a Google Drive file or folder link. `update_folder_url` is the user-facing folder for release files and notes.
+For testing, replace `installer_url` with your own download URL and `update_folder_url` with your own update folder or release page.
 
 For automatic checking, place `update.json` next to the installed EXE or set the `KL_UPDATE_MANIFEST_URL` environment variable to a direct JSON file URL.
 
@@ -139,5 +139,5 @@ No warranty is provided.
 ## Contact
 
 - KL CHOY
-- Email: [klchoy226@yahoo.co.uk](mailto:klchoy226@yahoo.co.uk)
+- Email: [klchoy226@yahoo.com.hk](mailto:klchoy226@yahoo.com.hk)
 - LinkedIn: [www.linkedin.com/in/ka-leung-choy](http://www.linkedin.com/in/ka-leung-choy)
