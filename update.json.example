@@ -1,0 +1,10 @@
+{
+  "version": "2026.08.05.1",
+  "title": "KL Multilingual Transcript Workbench v2026.08.05.1",
+  "installer_url": "https://example.com/download/KLMultilingualTranscriptWorkbench-Setup.exe",
+  "update_folder_url": "https://drive.google.com/drive/folders/your-folder-id",
+  "release_notes": "Improve path safety, batch skip reporting, and bilingual release notes.",
+  "mandatory": false,
+  "restart_after_update": true,
+  "sha256": "optional-sha256-hash"
+}
